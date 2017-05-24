@@ -19,6 +19,7 @@ public class TestaConexao {
     
     public static void main(String[] args) throws SQLException {
         
+        System.out.println("hi!");
         
         Connection conexao = new ConnectionFactory().getConnection();
         System.out.println("Conexão aberta");
