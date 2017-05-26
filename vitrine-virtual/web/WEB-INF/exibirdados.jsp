@@ -49,7 +49,7 @@
             <div class="container-fluid">
 
                 <form action="Cadastrar" method="post" >
-                    <h2>Cadastro</h2>
+                    <h2>Confira os seus dados</h2>
                     
                     <label class="radio-inline">
                         <input type="radio" name="opt" id="pf" onchange="document.getElementById('inputcpf').style.display = 'block';
@@ -64,12 +64,12 @@
              
                     <div class="form-group" id="inputcpf">
                         <label for="cpf">CPF:</label>
-                        <input type="text" class="form-control" name="cpf" id="cpf" maxlength="14" value=" ${pf.cpf} " pattern="[0-9]{3}.?[0-9]{3}.?[0-9]{3}-?[0-9]{2}">
+                        <input type="text" class="form-control" name="cpf" id="cpf" maxlength="14" value="${pf.cpf}" pattern="[0-9]{3}.?[0-9]{3}.?[0-9]{3}-?[0-9]{2}">
                         <small>Ex.: 000.000.000-00</small>
                     </div>                                   
                    <div class="form-group" id="inputcnpj" style="display: none">
                         <label for="cnpj">CNPJ:</label>
-                        <input type="text" class="form-control" name="cnpj" id="cnpj" maxlength="14" value=" ${pj.cnpj} " pattern="[0-9]{2}.?[0-9]{3}.?[0-9]{3}/?[0-9]{4}-?[0-9]{2}">
+                        <input type="text" class="form-control" name="cnpj" id="cnpj" maxlength="14" value="${pj.cnpj}" pattern="[0-9]{2}.?[0-9]{3}.?[0-9]{3}/?[0-9]{4}-?[0-9]{2}">
                         <small>Ex.: 00.000.000/0000-00</small>
                     </div>
                     <div class="form-group">
