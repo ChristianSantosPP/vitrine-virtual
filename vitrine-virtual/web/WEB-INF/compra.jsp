@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Vitrine Informática</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/padrao.css">
   </head>
   <body>
@@ -62,13 +62,6 @@
 
       <script src="bootstrap/jquery.min.js"></script>
       <script src="bootstrap/bootstrap.min.js"></script>
-<footer class="container-fluid ">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
-            <p>Endereço:<br/>
-                Rua Dez, 560 -  Prazeres <br/>
-                Jaboatão dos Guararapes - PE <br/>
-            </p>
-        </footer>
 
   </body>
 </html>

@@ -21,22 +21,22 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="Indexlogado"><img src="img/logo.png" alt="Vitrine Informática" id="logo"></a>
+                        <a class="navbar-brand" href="logado.jsp"><img src="img/logo.png" alt="Vitrine Informática" id="logo"></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="dropdown">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> ${pessoa.nome}
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span> Rosa Paloma
                                     <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conta</a></li>
                                     <li><a href="#">Compras</a></li>
-                                    <li><a href="Mensagem">Contato</a></li>
+                                    <li><a href="logadomensagem.jsp">Contato</a></li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="Carrinhologado" id="linkcarrinho"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho <span class="badge">${carrinho.itens.size()}</span></a></li>
-                            <li><a href="Logout" id="linksair"><span class="glyphicon glyphicon-log-in"></span> Sair </a></li>
+                            <li class="active"><a href="logadocarrinho.jsp" id="linkcarrinho"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho <span class="badge">${carrinho.itens.size()}</span></a></li>
+                            <li><a href="index.html" id="linksair"><span class="glyphicon glyphicon-log-in"></span> Sair </a></li>
                         </ul>
                     </div>
                 </div>
@@ -47,7 +47,8 @@
         </header>
 
         <section>
- <h2>Carrinho</h2>
+
+            <h2>Carrinho</h2>
             <div class="table">          
                 <table class="table table-striped">
                     <thead>
@@ -56,7 +57,7 @@
                             <th>Produto</th>
                             <th>Qtd</th>
                             <th>Valor</th>
-                            <th>${carrinho.valorTotal}</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tfoot>
