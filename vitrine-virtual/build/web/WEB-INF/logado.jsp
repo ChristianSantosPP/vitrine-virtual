@@ -28,7 +28,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="logado.jsp"><img src="img/logo.png" alt="Vitrine Informática" id="logo"></a>
+                        <a class="navbar-brand" href="Indexlogado"><img src="img/logo.png" alt="Vitrine Informática" id="logo"></a>
                     </div>
 
                     <div class="collapse navbar-collapse" id="myNavbar">
@@ -39,11 +39,11 @@
                                     <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="#">Conta</a></li>
-                                    <li><a href="#">Compras</a></li>
-                                    <li><a href="logadomensagem.jsp">Mensagens</a></li>
+                                    <li><a href=>Compras</a></li>
+                                    <li><a href="Mensagem">Mensagens</a></li>
                                 </ul>
                             </li>
-                            <li><a href="logadocarrinho.jsp" id="linkcarrinho"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho <span class="badge">${carrinho.itens.size()}</span></a></li>
+                            <li><a href="Carrinhologado" id="linkcarrinho"><span class="glyphicon glyphicon-shopping-cart"></span> Carrinho <span class="badge">${carrinho.itens.size()}</span></a></li>
                             <li><a href="Logout" id="linksair"><span class="glyphicon glyphicon-log-in"></span> Sair </a></li>
                         </ul>
                     </div>
